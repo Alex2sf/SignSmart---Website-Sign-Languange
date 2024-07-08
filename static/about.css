@@ -1,0 +1,103 @@
+body {
+    overflow-x: hidden;
+    font-family: Arial, sans-serif;
+    background: url('sf.png') no-repeat center center;
+    background-size: cover;
+    color: black; /* Black text color */
+    height: 100vh;
+  }
+  
+  .navs {
+    padding: 15px 60px;
+    font-size: 15px;
+    background-color: transparent; /* Transparent background */
+    position: sticky;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+  }
+  
+  .custom-navbar {
+    background: url('logo.png') no-repeat center center;
+    background-size: cover;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+  }
+  
+  .navbar-brand {
+    margin: 0;
+  }
+  
+  .navbar-toggler {
+    border: none;
+    outline: none;
+  }
+  
+  .navbar-toggler-icon {
+    width: 30px;
+    height: 30px;
+  }
+  
+  .navbar-nav {
+    flex-direction: row;
+    justify-content: end;
+    width: 100%;
+  }
+  
+  .nav-item {
+    margin: 0 10px;
+  }
+  
+  @media (max-width: 768px) {
+    .navbar-nav {
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+  
+  .intro-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px 100px;
+  }
+  
+  .intro-text {
+    max-width: 600px;
+  }
+  
+  .intro-text p {
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+  }
+  
+  .intro-img {
+    max-width: 600px;
+  }
+  
+  .intro-img img {
+    max-width: 100%;
+    margin-left: 100px;
+    height: auto;
+  }
+  
+  .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: cyan; /* Light Steel Blue color */
+    color: #fff;
+    border: none;
+    border-radius: 8px; /* Rounded corners */
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    background-color: #9bb8d3; /* Darker shade of Light Steel Blue */
+  }
+  

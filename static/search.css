@@ -1,0 +1,57 @@
+body {
+    overflow-x: hidden;
+    font-family: Arial, sans-serif;
+    background: url('as.png') no-repeat center center;
+    background-size: cover;
+    color: black; /* Mengubah warna teks menjadi hitam */
+    height: 100vh;
+  }
+
+  .navs {
+    padding: 15px 60px;
+    font-size: 15px;
+    background-color: transparent; /* Mengubah latar belakang menjadi transparan */
+    position: sticky;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+  }
+
+  .active {
+    font-weight: 600 !important;
+  }
+
+  .navbar-brand {
+    margin: 0;
+  }
+
+  .navbar-toggler {
+    border: none;
+    outline: none;
+  }
+
+  .navbar-toggler-icon {
+    width: 30px;
+    height: 30px;
+  }
+
+  .navbar-nav {
+    flex-direction: row;
+    justify-content: end;
+    width: 100%;
+  }
+
+  .nav-item {
+    margin: 0 10px;
+  }
+
+  @media (max-width: 768px) {
+    .navbar-nav {
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+
+  .container {
+      margin-top: 3em;
+  }
